@@ -1,0 +1,64 @@
+img {
+  border-radius: 50%;
+  border: solid 1px grey;
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+}
+
+.student-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.25fr;
+  grid-gap: 0 10px;
+  grid-auto-rows: minmax(100px, auto);
+  border-bottom: solid 1px grey;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  width: 800px;
+}
+
+.show-elm {
+  display:block;
+}
+
+.hide-elm {
+  display: none;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+p { 
+  margin:0 ;
+}
+
+.student-name {
+  text-transform: uppercase;
+  font: 2rem bold;
+}
+
+.student-detail {
+  font: 1.5rem;
+  margin-left: 1rem;
+}
+
+.icon-clicker {
+  margin: 10px;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.student-grades {
+  grid-column: 2;
+  grid-row: 2;
+  box-sizing: border-box;
+  margin-bottom:1rem;
+}
+
+.student-information {
+  margin-bottom:1rem;
+}
+

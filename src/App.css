@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import "./components/Student/student.css";
+@import "./components/SearchBy/search.css";
+@import "./components//Student/Student_Grades/Tags/tags.css";
+
+body{
+  height: auto;
+  background-color:lightgray;
+}
+
+.main-bg{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  /* height: auto; */
+  /*width: 100%;
+  position: relative; */
+  overflow: hidden;
+}
+
+.view-window{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:flex-start;
+  height: 600px;
+  min-height:600px;
+  margin: 4rem 4rem;
+  overflow-y: scroll;
+  border: gray solid 1px;
+  border-radius: 20px;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+} 
+
+#style-1::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+.search-bars {
+  position: -webkit-sticky;
+  position: sticky;
+}
